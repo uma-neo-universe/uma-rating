@@ -1,6 +1,9 @@
 :root {
     --border-color: #00000033;
     --background-color: #ffffff;
+
+    --padding-size: 10px;
+    --half-padding-size: calc(var(--padding-size) / 2);
 }
 
 @font-face {
@@ -17,10 +20,14 @@ body {
     font-family: SourceSans;
 }
 
-.test {
+.container {
     border-radius: 10px;
     background: #ffffff;
     border: solid 2px var(--border-color);
     backdrop-filter: blur(1px);
-    padding: 10px;
+
+    padding-left: var(--half-padding-size);
+    padding-right: var(--half-padding-size);
+    padding-top: var(--padding-size);
+    padding-bottom: var(--padding-size);
 }
