@@ -22,20 +22,50 @@
 
 @font-face {
     font-family: 'RodinPro';
-    src: url("fonts/FOT-RodinPro-M.ttf");
+    src: url("fonts/RodinPro/FOT-RodinPro-M.ttf");
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'RodinPro';
-    src: url("fonts/FOT-RodinPro-B.ttf");
+    src: url("fonts/RodinPro/FOT-RodinPro-B.ttf");
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'RodinPro';
-    src: url("fonts/FOT-RodinPro-EB.ttf");
+    src: url("fonts/RodinPro/FOT-RodinPro-EB.ttf");
     font-weight: 800;
+}
+
+@font-face {
+    font-family: 'UDKakugo';
+    src: url("fonts/UDKakugo/FOT-UDKakugo_Large-Pr6N-L.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'UDKakugo';
+    src: url("fonts/UDKakugo/FOT-UDKakugo_Large-Pr6N-M.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'UDKakugo';
+    src: url("fonts/UDKakugo/FOT-UDKakugo_Large-Pr6N-R.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'UDKakugo';
+    src: url("fonts/UDKakugo/FOT-UDKakugo_Large-Pr6N-B.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'UDKakugo';
+    src: url("fonts/UDKakugo/FOT-UDKakugo_Large-Pr6N-DB.ttf");
+    font-weight: 900;
 }
 
 /* Styles */
