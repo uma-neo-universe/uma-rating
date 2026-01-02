@@ -1,8 +1,13 @@
 @font-face {
-    font-family: 'umafont';
+    font-family: 'UmaFont';
     src: url("fonts/umafont.otf");
 }
 
+@font-face {
+    font-family: 'SourceSans';
+    src: url("fonts/SourceHanSansSC-VF.otf");
+}
+
 body {
-    font-family: umafont;
+    font-family: SourceSans;
 }
