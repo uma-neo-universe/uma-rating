@@ -1,10 +1,14 @@
+/* Init */
+
 :root {
     --border-color: #00000033;
     --background-color: #ffffff;
 
     --padding-size: 10px;
-    --half-padding-size: calc(var(--padding-size) / 2);
+    --half-padding-size: calc(var(--padding-size) * 2);
 }
+
+/* Fonts */
 
 @font-face {
     font-family: 'UmaFont';
@@ -16,6 +20,26 @@
     src: url("fonts/SourceHanSansSC-VF.otf");
 }
 
+@font-face {
+    font-family: 'FOT-RodinPro';
+    src: url("fonts/FOT-RodinPro-M.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'FOT-RodinPro';
+    src: url("fonts/FOT-RodinPro-B.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'FOT-RodinPro';
+    src: url("fonts/FOT-RodinPro-EB.ttf");
+    font-weight: bolder;
+}
+
+/* Styles */
+
 body {
     font-family: SourceSans;
 }
@@ -25,6 +49,9 @@ body {
     background: #ffffff;
     border: solid 2px var(--border-color);
     backdrop-filter: blur(1px);
+
+    width: fit-content;
+    height: fit-content;
 
     padding-left: var(--half-padding-size);
     padding-right: var(--half-padding-size);
