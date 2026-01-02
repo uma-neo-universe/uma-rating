@@ -1,8 +1,9 @@
 /* Init */
 
 :root {
-    --border-color: #00000033;
+    --border-color: #00000066;
     --background-color: #ffffff;
+    --text-color: #666666;
 
     --padding-size: 10px;
     --half-padding-size: calc(var(--padding-size) * 2);
@@ -79,13 +80,20 @@
 body {
     font-family: 'UDKakugo';
     font-weight: 500;
+    color: var(--text-color);
+
+    background-image: url("icons/bg/bg.png");
+    background-repeat: repeat-y;
+    place-items: anchor-center;
 }
 
 .container {
     border-radius: 10px;
-    background: #ffffff;
+
+    background: #ffffff80;
+
     border: solid 2px var(--border-color);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(10px);
 
     width: fit-content;
     height: fit-content;
