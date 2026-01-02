@@ -68,11 +68,17 @@
     font-weight: 900;
 }
 
+
+@font-face {
+    font-family: 'UDKakugoC80';
+    src: url("fonts/UDKakugo/FOT-UDKakugoC80-Pro-B.ttf");
+}
+
 /* Styles */
 
 body {
-    font-family: RodinPro;
-    font-weight: 600;
+    font-family: 'UDKakugo';
+    font-weight: 500;
 }
 
 .container {
