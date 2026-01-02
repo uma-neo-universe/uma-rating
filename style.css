@@ -1,3 +1,8 @@
+:root {
+    --border-color: #00000033;
+    --background-color: #ffffff;
+}
+
 @font-face {
     font-family: 'UmaFont';
     src: url("fonts/umafont.otf");
@@ -9,5 +14,13 @@
 }
 
 body {
-    font-family: UmaFont;
+    font-family: SourceSans;
+}
+
+.test {
+    border-radius: 10px;
+    background: #ffffff;
+    border: solid 2px var(--border-color);
+    backdrop-filter: blur(1px);
+    padding: 10px;
 }

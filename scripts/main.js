@@ -1,6 +1,6 @@
 // Methods
 
-async function GetJsonFile(JsonFileName: string) {
+async function GetJsonFile(JsonFileName) {
     const response = await fetch(JsonFileName);
     if (!response.ok) {
         return response.json();
