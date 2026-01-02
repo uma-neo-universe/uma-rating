@@ -1,4 +1,8 @@
 @font-face {
     font-family: 'umafont';
-    src: url("fonts\umafont.otf");
+    src: url("fonts/umafont.otf");
+}
+
+body {
+    font-family: umafont;
 }
