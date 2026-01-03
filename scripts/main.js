@@ -2,7 +2,7 @@
 
 async function GetJsonFile(JsonFileName) {
     const response = await fetch(JsonFileName);
-    if (!response.ok) {
+    if (response.ok) {
         return response.json();
     }
     else {
@@ -10,4 +10,4 @@ async function GetJsonFile(JsonFileName) {
     }
 }
 
-console.log(GetJsonFile("data\skilldata.json"))
+console.log(GetJsonFile("./data/skills.json"))
