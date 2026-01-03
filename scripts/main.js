@@ -10,4 +10,4 @@ async function GetJsonFile(JsonFileName) {
     }
 }
 
-console.log(GetJsonFile("https://uma-neo-universe.github.io/uma-rating/data/skills.json"))
+console.log(GetJsonFile("https://uma-neo-universe.github.io/uma-rating/data/skills.json")[0].id)
