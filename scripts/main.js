@@ -5,6 +5,9 @@ async function GetJsonFile(JsonFileName) {
     if (!response.ok) {
         return response.json();
     }
+    else {
+        console.error(response.error);
+    }
 }
 
-console.log(GetJsonFile("data/skill_data.json"))
+console.log(GetJsonFile("data\skilldata.json"))

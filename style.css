@@ -93,7 +93,7 @@ body {
     color: var(--text-color);
 
     background-image: url("icons/bg/bg.png");
-    background-size: contain;
+    background-size: cover;
     place-items: anchor-center;
 }
 
