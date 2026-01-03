@@ -93,7 +93,7 @@ body {
     color: var(--text-color);
 
     background-image: url("icons/bg/bg.png");
-    background-repeat: repeat-y;
+    background-size: contain;
     place-items: anchor-center;
 }
 
