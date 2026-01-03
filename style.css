@@ -5,6 +5,9 @@
     --background-color: #ffffff66;
     --text-color: #666666;
 
+    --text-yellow-color: linear-gradient(180deg, #ffffff 30%, #fffc95 50%, #ffd071 76%);
+    ;
+
     --padding-size: 10px;
     --half-padding-size: calc(var(--padding-size) * 2);
 }
@@ -69,6 +72,13 @@
     font-weight: 900;
 }
 
+@font-face {
+    font-family: 'UDKakugo->RodinPro';
+    src: url("fonts/UDKakugo/FOT-UDKakugo_Large-Pr6N-DB.ttf");
+    font-weight: 900;
+    unicode-range: U+0041-005A, U+0061-007A;
+}
+
 
 @font-face {
     font-family: 'UDKakugoC80';
@@ -85,6 +95,23 @@ body {
     background-image: url("icons/bg/bg.png");
     background-repeat: repeat-y;
     place-items: anchor-center;
+}
+
+.yellowText {
+    font-family: 'UDKakugo->RodinPro', 'RodinPro';
+    font-weight: 900;
+    font-size: 79px;
+    color: transparent;
+    transform: skewX(350deg);
+    letter-spacing: -0.075em;
+    padding-right: 0.25em;
+    -webkit-text-stroke-width: 0.025em;
+    background-image: var(--text-yellow-color);
+    background-repeat: repeat-x;
+    background-clip: text;
+    filter:
+        drop-shadow(0 0 0.035em #862d2dbb) drop-shadow(0 0 0.035em #862d2dbb) drop-shadow(0em 0em 0.0em #ffffff) drop-shadow(0.025em 0.05em 0.025em #aa682f) brightness(1.2);
+    text-shadow: 0px 0px 0em rgb(255 0 0 / 16%);
 }
 
 .container {
