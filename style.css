@@ -100,7 +100,6 @@ body {
 .yellowText {
     font-family: 'UDKakugo->RodinPro', 'RodinPro';
     font-weight: 900;
-    font-size: 50px;
     color: transparent;
     transform: skewX(350deg);
     letter-spacing: -0.075em;
