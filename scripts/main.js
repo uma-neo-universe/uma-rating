@@ -1,6 +1,10 @@
-// Methods
+// Variables
 
+// enname & endesc: Direct JP translation
+// For global translation use name_en & desc_en
 let jsonData = null;
+
+// Methods
 
 async function getJsonFile(JsonFileName) {
     const response = await fetch(JsonFileName);
@@ -15,5 +19,7 @@ async function getJsonFile(JsonFileName) {
 async function loadData() {
     jsonData = await getJsonFile("https://uma-neo-universe.github.io/uma-rating/data/skills.json");
 }
+
+// Initialize Functions
 
 loadData();
