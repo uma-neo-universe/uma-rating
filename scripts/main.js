@@ -1,6 +1,8 @@
 // Methods
 
-async function GetJsonFile(JsonFileName) {
+let jsonData = null;
+
+async function getJsonFile(JsonFileName) {
     const response = await fetch(JsonFileName);
     if (response.ok) {
         return response.json();
@@ -10,4 +12,8 @@ async function GetJsonFile(JsonFileName) {
     }
 }
 
-console.log(GetJsonFile("https://uma-neo-universe.github.io/uma-rating/data/skills.json")[0].id)
+async function loadData() {
+    jsonData = await getJsonFile("https://uma-neo-universe.github.io/uma-rating/data/skills.json");
+}
+
+loadData();
